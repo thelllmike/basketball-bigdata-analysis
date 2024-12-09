@@ -1,0 +1,98 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+.env/
+.env.local
+
+# Ignore data files (CSV and other common data formats)
+data/**/*.csv
+data/**/*.json
+data/**/*.parquet
+*.csv
+*.json
+*.parquet
+
+# Allow specific sample data files
+!data/sample_*.csv
+
+# Ignore log files
+*.log
+*.out
+*.err
+
+# Ignore Java compiled files
+*.class
+target/
+bin/
+build/
+
+# Ignore Java IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.project
+*.classpath
+*.settings/
+
+# Ignore compiled JAR files
+*.jar
+
+# Ignore Maven and Gradle directories
+.mvn/
+.gradle/
+build/
+
+# Ignore Hadoop output directories
+/output/
+*.crc
+*.tmp
+
+# Ignore Docker build cache and containers
+.dockerignore
+docker-compose.yml
+docker-compose.override.yml
+docker-compose.dev.yml
+docker-compose.prod.yml
+Dockerfile~
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore macOS system files
+*.AppleDouble
+.LSOverride
+
+# Ignore node_modules (if any frontend code)
+node_modules/
+
+# Ignore Jupyter notebook outputs
+*.nbconvert.ipynb
+*.html
+*.pdf
+
+# Ignore archive files
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+
+# Ignore VSCode workspace settings
+.vscode/
