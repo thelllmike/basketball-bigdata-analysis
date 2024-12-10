@@ -25,4 +25,4 @@ ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE;
 
-LOAD DATA INPATH '/input/basketball_pbp.csv' INTO TABLE basketball_pbp;
+LOAD DATA INPATH '/data/basketball_pbp.csv' INTO TABLE basketball_pbp;
